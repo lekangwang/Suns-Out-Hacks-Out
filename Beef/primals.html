@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script>
 function hover(txt) {
   document.getElementById("description").innerHTML = txt;
@@ -10,49 +15,24 @@ function hover(txt) {
 <body>
 <head>
   <link rel="stylesheet" type="text/css" href="../templates.css">
-  <link rel="stylesheet" href="../css/main.css">
 </head>
-<nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
-<div class="container-fluid">
-  <a href="index.html" class="navbar-brand">
-    <img class="navbar-brand" src="./img/logo.png" alt="logo" style="width: 200px; height: 35px;">
-  </a>
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapse_target">
-    <!--Navbar-->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a href="" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item dropdown-container">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          What do you want to make?
-        </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Pork/primals.html">Pork</a>
-            <a class="dropdown-item" href="Beef/primals.html">Beef</a>
-            <a class="dropdown-item" href="Chicken/primals.html">Chicken</a>
-            <a class="dropdown-item" href="Lamb/primals.html">Lamb</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-</nav>
+<a href= "../index.html">
+<button type="button" class="close" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</a>
 <div class="imageContainer">
   <div class="imageContainer">
-      <h1 id="description">Primals</h1>
+      <h1 id="description">Chuck</h1>
   </div>
-  <img src="../img/cow.png" usemap = "#foodMap">
+  <img src="../img/Cow.png" usemap = "#foodMap">
   <map name="foodMap" id="foodMap">
-    <area class="areaSelection" href="./round.html" onmouseover= "hover('Round')" coords="207,521,239,957,151,1114,124,1277,227,1292,264,1207,429,1022,702,819,750,661,712,606,635,561,517,428,417,366,307,423,247,471" shape="poly">
-    <area class="areaSelection" href="./loin.html" onmouseover= "hover('Loin')" coords="680,341,660,461,700,591,767,654,747,806,802,879,960,904,1060,987,1195,929,1125,784,1200,631,1233,639,1241,601,1301,536,1298,513,1333,436,1331,398,1266,378" shape="poly">
-    <area class="areaSelection" href="./rib.html" onmouseover= "hover('Rib')" coords="1351,362,1336,530,1203,880,1546,1046,1814,1106,1864,1031,1799,893,1791,665,1816,560,1859,565,1869,495,1824,320" shape="poly">
-    <area class="areaSelection" href="./chuck.html" onmouseover= "hover('Chuck')" coords="1856,356,1894,578,1874,801,1886,1072,2059,1087,2237,1052,2455,1212,2580,1197,2362,934,2395,886,2402,824,2377,774,2397,679,2382,523,2372,448,2402,433,2269,263,2194,268,2164,333,1994,338" shape="poly">
+    <area class="areaSelection" href="round.html" onmouseover= "hover('Round')" coords="207,521,239,957,151,1114,124,1277,227,1292,264,1207,429,1022,702,819,750,661,712,606,635,561,517,428,417,366,307,423,247,471" shape="poly">
+    <area class="areaSelection" href="loin.html" onmouseover= "hover('Loin')" coords="680,341,660,461,700,591,767,654,747,806,802,879,960,904,1060,987,1195,929,1125,784,1200,631,1233,639,1241,601,1301,536,1298,513,1333,436,1331,398,1266,378" shape="poly">
+    <area class="areaSelection" href="rib.html" onmouseover= "hover('Rib')" coords="1351,362,1336,530,1203,880,1546,1046,1814,1106,1864,1031,1799,893,1791,665,1816,560,1859,565,1869,495,1824,320" shape="poly">
+    <area class="areaSelection" href="chuck.html" onmouseover= "hover('Chuck')" coords="1856,356,1894,578,1874,801,1886,1072,2059,1087,2237,1052,2455,1212,2580,1197,2362,934,2395,886,2402,824,2377,774,2397,679,2382,523,2372,448,2402,433,2269,263,2194,268,2164,333,1994,338" shape="poly">
   </map>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="../rwdImageMaps.js"></script>
   <script src="../callFunctions.js"></script>
 </div>
