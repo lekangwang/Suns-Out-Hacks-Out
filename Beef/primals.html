@@ -10,7 +10,37 @@ function hover(txt) {
 <body>
 <head>
   <link rel="stylesheet" type="text/css" href="../templates.css">
+  <link rel="stylesheet" href="../css/main.css">
 </head>
+<nav class="navbar navbar-expand-md sticky-top navbar-light bg-light">
+<div class="container-fluid">
+  <a href="index.html" class="navbar-brand">
+    <img class="navbar-brand" src="./img/logo.png" alt="logo" style="width: 200px; height: 35px;">
+  </a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapse_target">
+    <!--Navbar-->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a href="" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item dropdown-container">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          What do you want to make?
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="Pork/primals.html">Pork</a>
+            <a class="dropdown-item" href="Beef/primals.html">Beef</a>
+            <a class="dropdown-item" href="Chicken/primals.html">Chicken</a>
+            <a class="dropdown-item" href="Lamb/primals.html">Lamb</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
 <div class="imageContainer">
   <div class="imageContainer">
       <h1 id="description">Primals</h1>
