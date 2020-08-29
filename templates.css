@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tableImage {
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-botton: 0rem;
+  margin-right: 0rem;
+  border: 3px solid goldenrod;
+  max-height: 100px;
+}
+img {
+  border: 3px solid goldenrod;
+  height: auto;
+  height: 500px;
+  max-width: 100%;
+  margin: 3rem;
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    position: absolute;
+    top: 70%;
+    padding: 0 2rem;
+}
+.styled-table thead tr {
+    background-color: #990000;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #990000;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #990000;
+}

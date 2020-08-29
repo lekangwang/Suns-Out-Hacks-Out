@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function hover(txt) {
+  document.getElementById("description").innerHTML = txt;
+}
+</script>
+</head>
+<body>
+<head>
+  <link rel="stylesheet" type="text/css" href="../templates.css">
+</head>
+<div class="imageContainer">
+  <div class="imageContainer">
+      <h1 id="description">Lamb</h1>
+  </div>
+  <img src="../img/Lamb.png" usemap = "#foodMap">
+  <map name="foodMap" id="foodMap">
+  </map>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="../rwdImageMaps.js"></script>
+  <script src="../callFunctions.js"></script>
+</div>
+</body>
+</html>

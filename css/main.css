@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+  height: 40rem;
+  position: relative;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%; 
+  height: 100%;
+  filter: brightness(70%);
+}
+
+.carousel-caption{
+  position: absolute;
+  bottom: 50%;
+  transform: translateX(-50%);
+  transform: translateY(50%);
+}
+
+.nav-link::after{
+  display: block;
+  content: '';
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform .25s ease-in-out;
+}
+
+.nav-link:hover::after{
+  transform: scaleX(1);
+}
+
+.navbar{
+  padding: 1rem 5rem;
+}
+
+.navbar-nav{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-container{
+  position: relative;
+  margin-left: 2rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Bottom of button */
+  left: 0;
+  right: 0;
+}
+
+.container-fluid{
+  width: 80%;
+}
+
+.container-fluid h1{
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.about{
+  margin: 4rem;
+}
+
+.about p{
+  font-size: 1.2rem;
+}
+
+.team{
+  height: 40rem;
+  margin-top: 2rem;
+  background-color: oldlace;
+  padding: 2rem;
+}
+
+.foot{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  background-color: oldlace;
+}
+
+.card-img-top{
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
