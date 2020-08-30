@@ -20,3 +20,5 @@ Javascript </br>
 # Authors
 
 [William Xu](https://github.com/williamrx05 "williamrx05 GitHub Profile") - Frontend </br>
+Stanley Miao - Researcher </br>
+Le Kang Wang - Frontend </br>
