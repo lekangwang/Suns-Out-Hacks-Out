@@ -10,7 +10,10 @@ Slideshow home page </br>
 
 # Created With
 
-HTML, CSS, JS, BOOTSTRAP </br>
+Html </br>
+Css </br>
+Bootstrap </br>
+Javascript </br>
 
 # Authors
 
