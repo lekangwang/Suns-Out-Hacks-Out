@@ -6,19 +6,19 @@ An interactive and informative cooking site, dedicated to various meats and prep
 
 # Features
 
-Interactive mapped images </br>
-Simplistic website flow </br>
-Slideshow home page </br>
+- Interactive mapped images </br>
+- Simplistic website flow </br>
+- Slideshow home page </br>
 
 # Created With
 
-Html </br>
-Css </br>
-Bootstrap </br>
-Javascript </br>
+- Html </br>
+- Css </br>
+- Bootstrap </br>
+- Javascript </br>
 
 # Authors
 
-[William Xu](https://github.com/williamrx05 "williamrx05 GitHub Profile") - Frontend </br>
-Stanley Miao - Researcher </br>
-Le Kang Wang - Frontend </br>
+[William Xu](https://github.com/williamrx05 "williamrx05 GitHub Profile") </br>
+[Stanley Miao](https://github.com/stanley-miao "stanley-miao GitHub Profile") </br>
+[Le Kang Wang](https://github.com/ " GitHub Profile") </br>
