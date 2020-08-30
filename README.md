@@ -4,8 +4,9 @@ An interactive and informative cooking site, dedicated to various meats and prep
 
 # Features
 
-Interactive images which are mapped with image links </br>
+Interactive mapped images </br>
 Simplistic website flow </br>
+Slideshow home page </br>
 
 # Created With
 
