@@ -23,4 +23,4 @@ This was an original project that we came up with as a group after the theme was
 
 [William Xu](https://github.com/williamrx05 "williamrx05 GitHub Profile") </br>
 [Stanley Miao](https://github.com/stanley-miao "stanley-miao GitHub Profile") </br>
-[Le Kang Wang](https://github.com/ " GitHub Profile") </br>
+[Le Kang Wang](https://github.com/lekangwang "lekangwang GitHub Profile") </br>
